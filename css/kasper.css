@@ -1,5 +1,5 @@
 /* Start Variables */
-:root {
+:root { 
   --main-color: #ffff08;
   --blou-color: rgb(0, 145, 255);
   --p-color: #777;
@@ -115,8 +115,15 @@ header .one::after {
   bottom: 0;
 }
 
-header .logoo img {
-  height: 40px;
+header .logoo .logo{
+  color: rgb(0, 145, 255);
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid rgb(86, 21, 238)
+ 
 }
 
 .logoo {
@@ -125,6 +132,8 @@ header .logoo img {
   border-right: 1px solid rgb(179, 174, 174);
   padding-right: 7px;
   flex: 1;
+
+
 }
 
 @media (max-width: 1300px) {
